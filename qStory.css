@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   min-height: 100%;
+   background-image: url(https://th.bing.com/th/id/R.4a8de1c73354f17ecb21071aa7b75315?rik=fH6OJT65aCfmOg&riu=http%3a%2f%2fwww.sweethome3d.com%2ftextures%2feteks-scopia%2fenglish-parquet-dark.jpg&ehk=BzVJ5oelXVXLY4dLEmDE9%2fTUK8Wywt5ZgG42YbliSf4%3d&risl=&pid=ImgRaw&r=0); 
+   cursor: auto;    
+}
+header .cocosinero-img{
+    height: 280px;
+    width: auto;
+    filter: contrast(100%);
+    margin-right: 10%;
+    margin-top: 30%;
+    margin-left: -500px;
+    transition: all 5s;
+    position: flex;
+}
+
+.cocosinero-img:hover{
+    transform: rotate(360deg);
+}
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    right:0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.663);
+    border-bottom: 2px solid rgb(139, 138, 137);
+    backdrop-filter: blur(4px);
+}   
+.navList{
+    display: flex;
+    margin-left: 180px;
+}
+
+.navList li .homeAct{
+    color: rgb(233, 90, 50);
+}
+
+.navList a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 20px 20px;
+    display: fixed;
+    flex-grow: 1;
+
+}
+
+.navList a:hover{
+    background-color: rgba(225, 176, 0, 0.351);
+    padding: 30px 20px;
+}
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin:40px;
+    font-weight: 700;
+    font-size: 38px;
+    text-shadow: -1px -2px 5px rgb(255, 254, 254);
+}
+header h1 a{
+    color: rgb(233, 90, 50);
+}
+
+#menu-box{
+    color: white;
+    font-size:50px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-right: 25px;
+    visibility: hidden;
+}
+/*footer-div*/
+
+.footer-all-div{
+    background-color: rgb(95, 35, 1);
+    color: white;
+    min-width: 100%;
+    height:40vh;
+}
+
+/* Cocosinero Footer*/
+.footer-home a{
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 75px;
+}
+
+.hours-div{
+    margin-left: 5%;
+    font-size: 1.50em;
+    padding: 5px;
+}
+
+.openHrs-div{
+    text-align: center;
+    margin-right: 79%;
+    font-size: 1em;
+}
+
+.nav-loc-hour{
+    padding-top: 10px;
+    
+    margin-right: 78%;
+    text-align: center;
+}
+
+.nav-loc-hour a{
+    color: rgb(152, 150, 150);
+}
+
+.nav-loc-hour a:hover{
+    color: rgb(233, 90, 10);
+}
+/* Cocosinero Site Map of Website*/
+.footer-nav-map{
+    padding: 5px;
+    text-align: center;
+    top:255vh;
+    position: absolute;
+    margin-left: 42%;
+}
+
+.footer-nav-map .site-map{
+    color: grey;
+    font-size: 24px;
+}
+
+.footer-nav-map a{
+    color: white;
+    display: flex;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.footer-nav-map a:hover{
+    color: rgb(233, 90, 10);
+}
+
+/* Cocosinero Social Media Links*/
+
+.footer-social{
+    padding: 5px;
+    text-align: center;
+    top:255vh;
+    position: absolute;
+    margin-left: 82%;
+}
+
+.footer-social a{
+    color: grey;
+    margin-right: 48px;
+}
+
+.footer-social a:hover{
+    color: rgb(233, 90, 10);
+}
+
+.qualityfoods{
+    top: 270vh;
+    position: absolute;
+    margin-left: 82.5%;
+}
+
+.footer-copyRight{
+    top: 292vh;
+    position: absolute;
+    margin-left: 35%;
+}
+
+.footer-copyRight a{
+    color: rgb(233, 90, 10);
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+}

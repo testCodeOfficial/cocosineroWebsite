@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica', sans-serif;
+    border: 1px; 
+
+}
+.dark-bg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: black;
+    top: 0;
+    left: 0;
+    z-index: -183
+}
+html{
+    height: 100%;
+    max-height: 100%;
+}
+body{
+    background-image: url(https://images3.alphacoders.com/932/932969.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+
+
+}
+
+h1{
+    text-align: center;
+    text-wrap: wrap;
+    color: white
+}
+i{
+    color: rgba(13, 253, 229, 0.582); 
+    text-shadow: 0 0 0 grey;   
+}
+
+h2{
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom:5px;
+    font-family: sans-serif;
+    color:rgba(0, 255, 208, 0.437);
+}
+h4{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px; 
+
+}
+
+#user{
+    width: 200px;
+    margin: 0;
+    border-radius: 2px;
+    padding: 6px;
+    margin-bottom: 1px;
+    display: inline-flex;
+    font-weight: bold;
+    background: none;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#pass{
+    width:200px;
+    margin: 0;
+    border-radius: 2px;
+    padding: 7px;
+    margin-top: 7px;
+    display: inline-flex;
+    font-weight: bold;
+    background: none;
+    border: 1px solid;
+    border-color: black;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    padding-left:10px;
+}
+#forgot a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px 2px;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 30px;
+    color: rgb(55, 46, 230);
+}
+#forgot p{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+}
+
+#submit{
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    background-color: rgba(0, 0, 255, 0.451) ;
+    text-align: center;
+    width: 30%;
+
+}
+#submit:hover{
+    background-color:rgb(53, 53, 215)
+}
+
+#Account a{
+    text-decoration: none;
+    padding-left: 10px;
+    justify-content: right;
+    padding-right: 40px;
+}
+
+#Account{
+    margin-top: 40px;
+
+}
+.container{
+    border: 2px solid;
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: rgb(196, 197, 197);
+    cursor: pointer;
+}
+form{
+    margin-top: 150px ;
+
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: auto;
+    }
+}
+
