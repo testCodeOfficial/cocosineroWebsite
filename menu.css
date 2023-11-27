@@ -9,11 +9,12 @@
 
 body{
    min-height: 100%;
-   background-image:  url(menu_bg\ \(1\).jpg);
+   background: linear-gradient(to top, black, white,
+   black,white,black);
    cursor: auto; 
    background-size: cover; 
    background-repeat: no-repeat; 
-   height: 500vh;
+   height: 1000vh;
 }
 
 header{
@@ -390,17 +391,19 @@ h6{
     margin-left: 20%;
     margin-bottom: 5%;
     margin-top: 5%;
+    position: absolute;
 }
 
 /*Best-seller menu*/
 
 .bseller{
     position: absolute;
+    top: 295vh;
 }
 
 .bs-menu img{
     max-width: 100%;
-    height: 50vh;
+    height: 45vh;
     justify-content: space-between;
     padding: 20px 20px;
     border-radius: 10%;
@@ -410,4 +413,209 @@ h6{
     display: flex;
     margin-left: 120px;
     width: 85%;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
+
+.akb-img{
+    margin-right: 0;
+    width: 25%;
+    font-size: 30px;
+    margin-left: 9%;
+    margin-top: 25%;
+}
+
+.akb-items{
+    font-size: 24px;
+    margin-left: 7%;
+    margin-top: -25px;
+}
+
+.sbb-img{
+    width: 25%;
+    height: 70px;
+    font-size: 30px;
+    margin-left: 40px;
+    object-fit: cover;
+    clip: 50px;
+}
+
+.sbb-item{
+    font-size: 24px;
+    margin-left: 10.5%;
+    margin-top: -30px;
+}
+
+.lb-img{
+    margin-left: 40px;
+    width: 25%;
+    object-fit: cover;
+}
+
+.lb-item{
+    font-size: 24px;
+    margin-left: 13%;
+    margin-top: -30px;
+}
+
+.bs-price{
+    display: flex;
+    margin-bottom: -10%;
+    color: rgb(233, 90, 50);
+}
+.akb-price{
+    padding: 20px;
+    border-radius: 10%;
+    margin-left:11%;
+    color: white;
+    font-size: 20px;
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    text-align: center;
+    margin-top: -60px;
+    text-transform: uppercase;
+}
+
+.sbb-price{
+    padding: 20px;
+    border-radius: 10%;
+    margin-left: 230px;
+    color: white;
+    font-size: 20px;
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    text-align: center;
+    margin-top: -60px;
+    text-transform: uppercase;
+}
+
+.lavab-price{
+    padding: 20px;
+    border-radius: 10%;
+    margin-left: 230px;
+    color: white;
+    font-size: 20px;
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    text-align: center;
+    margin-top: -60px;
+    text-transform: uppercase;
+}
+
+.fo-img{
+    margin-right: 0;
+    width: 25%;
+    font-size: 30px;
+    margin-left: 2%;
+}
+
+.fo-items{
+    font-size: 24px;
+    margin-left: 26%;
+    margin-top: -30px;
+}
+
+.fo-price{
+    color: rgb(233, 90, 50);
+    margin-top: -40px;
+    margin-left: 27%;
+}
+
+.fp-img{
+    margin-right: 0;
+    width: 25%;
+    font-size: 30px;
+    margin-left: 2%; 
+}
+
+.fp-item{
+    font-size: 24px;
+    margin-left: 17%;
+    margin-top: -30px;
+}
+
+.fp-price{
+    color: rgb(233, 90, 50);
+    margin-top: -40px;
+    margin-left: 20%;
+}
+
+.bar-item{
+    display: flex;
+    margin-left: 120px;
+    width: 85%;
+    font-weight: 700;
+    margin-top: 50px;      
+    text-transform: uppercase;
+}
+
+.bar-items{
+    font-size: 24px;
+    margin-left: 22%;
+    margin-top: -10px;
+    line-height: 2em;
+}
+
+.bar-price{
+    color: rgb(233, 90, 50);
+    margin-top: -40px;
+    margin-left: 25%;
+    text-transform: uppercase;
+}
+
+.bars-items{
+    font-size: 24px;
+    margin-left: 22%;
+    margin-top: -150px;
+    line-height: 2em;
+}
+
+.bars-price{
+    color: rgb(233, 90, 50);
+    margin-top: -100px;
+    margin-left: 25%;
+    text-transform: uppercase;
+}
+
+.fams-price{
+    color: rgb(233, 90, 50);
+    margin-top: -40px;
+    margin-left: 18%;
+    display: flex;
+}
+
+.fam-item{
+    font-size: 24px;
+    margin-left: 22%;
+    margin-top: -10px;
+    line-height: 2em;
+}
+
+.fam-price{
+    color: rgb(233, 90, 50);
+    margin-top: -40px;
+    margin-left: 23%;
+    text-transform: uppercase;
+}
+
+.fams-item{
+    font-size: 24px;
+    margin-left: 25%;
+    margin-top: -150px;
+    line-height: 2em;
+}
+
+.famss-price{
+    color: rgb(233, 90, 50);
+    margin-top: -100px;
+    margin-left: 23%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
