@@ -9,23 +9,10 @@
 
 body{
    min-height: 100%;
-   background-image: url(https://th.bing.com/th/id/R.4a8de1c73354f17ecb21071aa7b75315?rik=fH6OJT65aCfmOg&riu=http%3a%2f%2fwww.sweethome3d.com%2ftextures%2feteks-scopia%2fenglish-parquet-dark.jpg&ehk=BzVJ5oelXVXLY4dLEmDE9%2fTUK8Wywt5ZgG42YbliSf4%3d&risl=&pid=ImgRaw&r=0); 
+   background: linear-gradient(to right, rgb(0, 0, 0),black,rgb(233, 90, 50));
    cursor: auto;    
 }
-header .cocosinero-img{
-    height: 280px;
-    width: auto;
-    filter: contrast(100%);
-    margin-right: 10%;
-    margin-top: 30%;
-    margin-left: -500px;
-    transition: all 5s;
-    position: flex;
-}
 
-.cocosinero-img:hover{
-    transform: rotate(360deg);
-}
 header{
     align-items: center;
     justify-content: space-between;
@@ -44,7 +31,7 @@ header{
     margin-left: 180px;
 }
 
-.navList li .homeAct{
+.navList li .contactAct{
     color: rgb(233, 90, 50);
 }
 
@@ -56,7 +43,7 @@ header{
     padding: 20px 20px;
     display: fixed;
     flex-grow: 1;
-
+    letter-spacing: 2px;
 }
 
 .navList a:hover{
@@ -87,13 +74,112 @@ header h1 a{
     visibility: hidden;
 }
 
+/*Contact Section*/
+
+.contact-header{
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+    font-size:  40px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 44%;
+    margin-left: 31%;
+    margin-top: 15%;
+    animation: fade 2s ease-in forwards 1s;
+    opacity: 0;
+}
+
+.contact-img{
+    object-fit: cover;
+    width: 40%;
+    height: 50vh;
+    min-height: 100%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 1px 8px 20px 10px rgba(0, 0, 0, 0.867);
+    animation: fade 3s ease-in forwards 1s;
+    opacity: 0;
+}
+
+.section{
+    color: white;
+    position: absolute;
+    top: 58vh;
+    padding: 20px;
+    height: 70vh;
+    margin-left: 46%;
+    width: 50%;
+    margin-bottom: 5px;
+    animation: fade 4s ease-in forwards 1s;
+}
+
+.section pre{
+font-size: 1.20em;
+font-weight: 400;
+}
+
+.section a{
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+    font-size:  18px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.contact-text{
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+    font-size:  40px;
+    padding-top: 20px;
+    text-align: center;
+}
+.img-google{
+    margin-bottom: 100vh;
+}
+
+.img-googles{
+    object-fit: cover;
+    width: 80%;
+    height: 40vh;
+    min-height: 100%;
+    margin-left: 14%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    box-shadow: 1px 8px 20px 10px rgba(0, 0, 0, 0.867);
+    animation: fade 5s ease-in forwards 1s;
+    padding-bottom: 100;
+    opacity: 0;
+}
+
 /*footer-div*/
 
 .footer-all-div{
-    background-color: rgb(95, 35, 1);
+    background: linear-gradient(to right, rgb(0, 0, 0),black,rgb(233, 90, 50));
     color: white;
     min-width: 100%;
+    margin-top: 36vh;
     height:40vh;
+
 }
 
 /* Cocosinero Footer*/
@@ -105,18 +191,18 @@ header h1 a{
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    margin-left: 75px;
+    margin-left: 14px;
 }
 
 .hours-div{
-    margin-left: 5%;
+    margin-left: 4%;
     font-size: 1.50em;
     padding: 5px;
 }
 
 .openHrs-div{
     text-align: center;
-    margin-right: 79%;
+    margin-right: 80%;
     font-size: 1em;
 }
 
@@ -138,14 +224,20 @@ header h1 a{
 .footer-nav-map{
     padding: 5px;
     text-align: center;
-    top:255vh;
+    top:155vh;
     position: absolute;
-    margin-left: 42%;
+    margin-left: 45%;
 }
 
 .footer-nav-map .site-map{
-    color: grey;
-    font-size: 24px;
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
 }
 
 .footer-nav-map a{
@@ -155,7 +247,7 @@ header h1 a{
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 2px;
-    margin-left: 10px;
+    margin-left: 4px;
 }
 
 .footer-nav-map a:hover{
@@ -167,28 +259,36 @@ header h1 a{
 .footer-social{
     padding: 5px;
     text-align: center;
-    top:255vh;
+    top:154vh;
     position: absolute;
     margin-left: 82%;
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
 }
 
 .footer-social a{
-    color: grey;
-    margin-right: 48px;
+    color: rgb(24, 3, 255);
+    margin-right: 78px;
 }
 
 .footer-social a:hover{
-    color: rgb(233, 90, 10);
+    color: rgb(14, 92, 169);
 }
 
 .qualityfoods{
-    top: 270vh;
+    top: 170vh;
     position: absolute;
     margin-left: 82.5%;
 }
 
 .footer-copyRight{
-    top: 292vh;
+    top: 190vh;
     position: absolute;
     margin-left: 35%;
 }
@@ -199,3 +299,14 @@ header h1 a{
     font-weight: 700;
     position: relative;
 }
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+

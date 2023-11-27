@@ -9,7 +9,7 @@
 
 body{
    min-height: 100%;
-   background-image: url(https://th.bing.com/th/id/R.4a8de1c73354f17ecb21071aa7b75315?rik=fH6OJT65aCfmOg&riu=http%3a%2f%2fwww.sweethome3d.com%2ftextures%2feteks-scopia%2fenglish-parquet-dark.jpg&ehk=BzVJ5oelXVXLY4dLEmDE9%2fTUK8Wywt5ZgG42YbliSf4%3d&risl=&pid=ImgRaw&r=0); 
+   background-image: url(bg3.jpg) ;
    cursor: auto;    
 }
 header .cocosinero-img{
@@ -56,7 +56,7 @@ header{
     padding: 20px 20px;
     display: fixed;
     flex-grow: 1;
-
+    letter-spacing: 2px;
 }
 
 .navList a:hover{
@@ -91,7 +91,7 @@ header h1 a{
 .img-al-fresko{
     padding-top: 0;
     background-repeat: no-repeat;
-    height: 89.5vh;
+    height: 100.5vh;
     width:100%;
     display: fixed;
 }
@@ -101,10 +101,9 @@ header h1 a{
     justify-content: center;
     text-align: start;
     position: absolute;
-    top: 28%;
-    right:10%;
-    border: 1px solid rgb(119, 119, 119);
-    backdrop-filter: blur(4px);
+    top: 58%;
+    left:10%;
+    margin-left: -100px ;
 }
 
 .page-message{
@@ -114,7 +113,6 @@ header h1 a{
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    background-color: rgba(97, 97, 97, 0.821);
     padding:24px;
     text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
     font-size: 38px;
@@ -126,7 +124,6 @@ header h1 a{
 #head-text p{
     text-align: justify;
     align-items: right;
-    background-color: rgba(97, 97, 97, 0.821);
     padding: 24px;
     font-size: 14px;
 }
@@ -141,22 +138,27 @@ header h1 a{
     margin-left: 45px;
     margin-right: 85px;
     height: 70vh;
-    width: 57.5%;
+    width: 47.5%;
     object-fit: cover;
-    
 }
+
+.img-welcome{
+    animation: slideup 1.20s ease forwards 1.20s;
+    opacity: 0;
+}
+
 .welcome-in{
-    border: 1px solid rgb(2, 2, 2);
-    background: rgba(255, 255, 255, 0.878);
     width: 37%;
     margin-top: 23px;
     margin-bottom: 60%;
-    margin-left: 61.5%;
+    margin-left: 55.5%;
     position: absolute;
-    height: 550px;
-    top: 110vh;
-    margin-right: 10%;
+    height: 549.5px;
+    top: 121.5vh;
+    margin-right: 20%;
     padding: 2%;
+    animation: slideup 1.40s ease forwards 1.40s;
+    opacity: 0;
 }
 
 .welcome-in h4{
@@ -166,17 +168,17 @@ header h1 a{
     padding: 10px;
     padding-top: 20px;
     margin-left: 10px;
+    color: white;
 }
 
 .welcome-in h1{
-    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
-    color: red;
+    color: rgb(233, 90, 50);
     font-size: 40px;
     font-weight: 700;
     padding-left: 10px;
     margin-bottom: 5%;
     margin-left: 10px;
-    text-shadow: -1px -2px 5px rgb(255, 254, 254);
+    text-transform: uppercase;
 }
 
 .welcome-in p{  
@@ -187,6 +189,7 @@ header h1 a{
     text-align: start;
     margin-left: 10px;
     margin-bottom: 150px;
+    color:white
 }
 
 .welcome-in a{
@@ -205,14 +208,18 @@ header h1 a{
    background-color:rgba(97, 97, 97, 0.821)
 }
 
+
 /* menu-bar div*/
 
 .menu-sample{
     min-height: 100%;
-    margin-left: 10%;
+    margin-left: 3%;
     height: 50vh;
-    width: 40%;
+    width: 48%;
     margin-bottom: 5%;
+    animation: slideup 2s ease forwards 2s;
+    opacity: 0;
+    object-fit:cover;
 }
 
 .menu-in{
@@ -221,9 +228,11 @@ header h1 a{
     height: 40vh;
     padding-top: 50px;
     position: absolute;
-    top: 194vh;
+    top: 201vh;
     margin-left: 59%;
     padding: 20px;
+    animation: slideup 2s ease-in forwards 2.50s;
+    opacity: 0;
 }
 
 .menu-in h1{
@@ -256,20 +265,22 @@ header h1 a{
     padding-top: 18px;
     padding-bottom: 18px;
     text-shadow: -1px -2px 5px rgb(60, 60, 60);
-    margin-left: 65%;
+    margin-left: 61%;
 }
 
 .menu-in a:hover{
     background-color:rgba(97, 97, 97, 0.821)
 }
 
+
 /*footer-div*/
 
 .footer-all-div{
-    background-color: rgb(95, 35, 1);
+    background: linear-gradient(to left,black, rgb(1, 1, 1));
     color: white;
-    min-width: 100%;
-    height:40vh;
+    max-width: 100%;
+    height:50vh;
+    text-align: center;
 }
 
 /* Cocosinero Footer*/
@@ -281,30 +292,29 @@ header h1 a{
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    margin-left: 75px;
+    margin-left: 15px;
 }
 
 .hours-div{
-    margin-left: 5%;
+    margin-left: 1%;
     font-size: 1.50em;
     padding: 5px;
+    text-align: center;
 }
 
 .openHrs-div{
     text-align: center;
-    margin-right: 79%;
     font-size: 1em;
+    text-align: center;
 }
 
 .nav-loc-hour{
     padding-top: 10px;
-    
-    margin-right: 78%;
     text-align: center;
 }
 
 .nav-loc-hour a{
-    color: rgb(152, 150, 150);
+    color: rgb(255, 255, 255);
 }
 
 .nav-loc-hour a:hover{
@@ -314,14 +324,21 @@ header h1 a{
 .footer-nav-map{
     padding: 5px;
     text-align: center;
-    top:255vh;
+    top:272vh;
     position: absolute;
-    margin-left: 42%;
+    margin-left: 2%;
+
 }
 
 .footer-nav-map .site-map{
-    color: grey;
-    font-size: 24px;
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
 }
 
 .footer-nav-map a{
@@ -331,7 +348,7 @@ header h1 a{
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 2px;
-    margin-left: 10px;
+    margin-left: 4px;
 }
 
 .footer-nav-map a:hover{
@@ -343,28 +360,37 @@ header h1 a{
 .footer-social{
     padding: 5px;
     text-align: center;
-    top:255vh;
+    top:270vh;
     position: absolute;
     margin-left: 82%;
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
 }
 
 .footer-social a{
-    color: grey;
-    margin-right: 48px;
+    color: rgb(24, 3, 255);
+    margin-right: 78px;
 }
 
 .footer-social a:hover{
-    color: rgb(233, 90, 10);
+    color: rgb(14, 92, 169);
 }
 
 .qualityfoods{
-    top: 270vh;
+    top: 285vh;
     position: absolute;
     margin-left: 82.5%;
+    text-align: justify;
 }
 
 .footer-copyRight{
-    top: 292vh;
+    top: 315vh;
     position: absolute;
     margin-left: 35%;
 }
@@ -374,4 +400,14 @@ header h1 a{
     font-size: 18px;
     font-weight: 700;
     position: relative;
+}
+
+@keyframes slideup {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
 }

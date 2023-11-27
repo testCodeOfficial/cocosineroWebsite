@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(to top, pink, blue);
+    background-repeat: no-repeat;
+    }
+    p{
+    font-size: 4em; 
+    color: #00a6ffe7;
+    }
