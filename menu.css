@@ -10,7 +10,7 @@
 body{
    min-height: 100%;
    background-image: url(bg3.jpg);
-   cursor: auto; 
+   cursor: auto;
 }
 
 header{
@@ -161,7 +161,6 @@ p{
     height: 50vh;
     justify-content: space-between;
     padding: 20px 20px;
-    object-fit: cover;
     border-radius: 10%;
 }
 
@@ -656,7 +655,6 @@ h6{
 }
 
 .bilao-size-menu img{
-    max-width: 100%;
     height: 45vh;
     justify-content: space-between;
     padding: 20px 20px;
@@ -778,7 +776,6 @@ h6{
     font-size: 30px;
     margin-left: 2%;
     margin-top: 25%;
-    object-fit: cover;
 }
 
 .pab-price{
@@ -808,7 +805,6 @@ h6{
     font-size: 30px;
     margin-left: 10%;
     margin-top: 30%;
-    object-fit: cover;
 }
 
 .hg-items{
@@ -832,13 +828,13 @@ h6{
 .salis-item{
     font-size: 24px;
     margin-left: 29%;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 
 .porchop-item{
     font-size: 24px;
     margin-left: 20%;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 
 .hg-price{
