@@ -16,6 +16,16 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </html>
 <body> 
+    <div class="button-container">
+        <div class="button-song">
+            <img src="pause.png" id="icon">
+        </div>
+    </div>
+    <audio id="songyouwant">
+
+        <source src="mesarap.mp3" type="audio/mp3">
+
+    </audio>
     <header>
         <h1><a href="cocosineroIndex.html">Cocosinero</a></h1>
         <ul class="navList">
@@ -28,13 +38,14 @@
     </header> 
 
     <main>
+         <!----RICE MEAL MENU--->
         <section>
             <div class="menu-container">
                 <h1 clas="rice-meal">Cocosinero<br> Ricemeal</h1>
                 <div class="rice-meal-menu">
-                    <img class="rm-img" src="RM/ricemeal1.jpg" alt="">
-                    <img class="grilled-img" src="RM/grilled liempo.jpg" alt="">
-                    <img class ="ala-img" src="RM/alaking.jpg" alt="">
+                    <img class="rm-img" src="RM/ricemeal1.jpg" alt="Inasal">
+                    <img class="grilled-img" src="RM/grilled liempo.jpg" alt="Grilled Liempo">
+                    <img class ="ala-img" src="RM/alaking.jpg" alt="Chicken Ala King">
                 </div>
                 <div class="rm-item">
                     <p class="rm-items">Inasal<br> Pitso</p><p class="leg-items">Inasal<br> Leg</p>
@@ -49,9 +60,9 @@
 
                 <div class="menu-container">
                     <div class="rice-meal-menu">
-                        <img class="rm-img" src="RM/sisig.jpg" alt="">
-                        <img class="grilled-img" src="RM/grilledpusit.jpg" alt="">
-                        <img class ="ala-img" src="RM/lechonkawali.jpg" alt="">
+                        <img class="rm-img" src="RM/sisig.jpg" alt="Crispy Sisig">
+                        <img class="grilled-img" src="RM/grilledpusit.jpg" alt="Grilled Pusit">
+                        <img class ="ala-img" src="RM/lechonkawali.jpg" alt="Lechon Kawali">
                     </div>
                     <div class="rm-item">
                         <p class="cs-items">crispy Sisig</p>
@@ -67,9 +78,9 @@
 
                 <div class="menu-container">
                     <div class="rice-meal-menu">
-                        <img class="rm-img" src="RM/crispy.....jpg" alt="">
-                        <img class="grilled-img" src="RM/calamares.jpg" alt="">
-                        <img class ="ala-img" src="RM/porkchop.jpg" alt="">
+                        <img class="rm-img" src="RM/crispy.....jpg" alt="Salt & Pepper Squid">
+                        <img class="grilled-img" src="RM/calamares.jpg" alt="Calamares">
+                        <img class ="ala-img" src="RM/porkchop.jpg" alt="Porkchop">
                     </div>
                     <div class="rm-item">
                         <p class="sps-items">Salt & Pepper Squid</p>
@@ -85,9 +96,9 @@
 
                 <div class="menu-container">
                     <div class="rice-meal-menu">
-                        <img class="rm-img" src="RM/fishfillet.jpg" alt="">
-                        <img class="grilled-img" src="RM/fried chicken.jpg" alt="">
-                        <img class ="ala-img" src="RM/cordonbleu.jpg" alt="">
+                        <img class="rm-img" src="RM/fishfillet.jpg" alt="Fish Fillet">
+                        <img class="grilled-img" src="RM/fried chicken.jpg" alt="Fried Chicken">
+                        <img class ="ala-img" src="RM/cordonbleu.jpg" alt="Cordon Bleu">
                     </div>
                     <div class="rm-item">
                         <p class="ff-items">fishfillet</p>
@@ -102,13 +113,13 @@
                 </div>
             </div>
         </section>
-
+        <!----BEST SELLER MENU--->
         <section>
             <div class="menu-best-selller">
                 <div class="bs-menu">
-                    <img class="akb-img" src="best seller burger n fries/alaking.jpg" alt="">
-                    <img class= "sbb-img"src="best seller burger n fries/signature beef b.jpg" alt="">
-                    <img class="lb-img" src="best seller burger n fries/lava b.jpg" alt="">
+                    <img class="akb-img" src="best seller burger n fries/alaking.jpg" alt="Alaking Burger">
+                    <img class= "sbb-img"src="best seller burger n fries/signature beef b.jpg" alt="Signature Beef Burger">
+                    <img class="lb-img" src="best seller burger n fries/lava b.jpg" alt="Lava Burger">
                 </div>
                 <div class="bs-item">
                     <p class="akb-items">Alaking Burger</p>
@@ -124,8 +135,8 @@
                     <div class="menu-best-seller">
                         <h1 class="bseller">Cocosinero <br>Best Seller</h1>
                         <div class="bs-menu">
-                            <img class="fo-img" src="best seller burger n fries/fries overload.jpg" alt="">
-                            <img class="fp-img" src="best seller burger n fries/fries plain.jpg" alt="">
+                            <img class="fo-img" src="best seller burger n fries/fries overload.jpg" alt="Fries Overload">
+                            <img class="fp-img" src="best seller burger n fries/fries plain.jpg" alt="Fries Plain">
                         </div>
                         <div class="bs-item">
                             <p class="fo-items">Fries Overload</p>
@@ -157,10 +168,143 @@
                         </div>      
             </div>
         </section>
+        <!----BILAO MENU--->
+        <section>
+            <div class="menu-bilao">
+                <h1 class="-bilao-menu">Cocosinero <br>Bilao</h1>
+                <div class="bilao-size-menu">
+                    <img class="spag-img" src="bilao/spag.jpg" alt="Bilao Spaghetti">
+                    <img class= "carb-img"src="bilao/carbonara.jpg" alt="Bilao Carbonara">
+                    <img class="pg-img" src="bilao/p.gisaddo.jpg" alt="Bilao Pansit Guisado">
+                </div>
+                <div class="bilao-item">
+                    <p class="spag-title">Spaghetti</p>
+                    <p class="carb-title">Carbonara</p>
+                    <p class="pg-title">Pansit Guisado</p>
+                    <p class="spag-item">Small</p>
+                    <p class="carb-item">Medium</p>
+                    <p class="pg-item">Large</p>
+                </div>
+                <div class="bs-price">
+                    <h6 class="spag-price">850.00 Pesos<br></h6>
+                    <h6 class="carb-price">850.00 Pesos<br></h6>
+                    <h6 class="pg-price">690.00 Pesos<br></h6>
+                </div>
+                <div class="bs-price">
+                    <h6 class="spag-price">650.00 Pesos</h6>
+                    <h6 class="carb-price">650.00 Pesos</h6>
+                    <h6 class="pg-price">590.00 Pesos</h6>
+                </div>
+                <div class="bs-price">
+                    <h6 class="spag-price">490.00 Pesos</h6>
+                    <h6 class="carb-price">490.00 Pesos</h6>
+                    <h6 class="pg-price">410.00 Pesos</h6>
+                </div>
+
+                <div class="menu-bilao">
+                    <div class="bilao-size-menu">
+                        <img class="spag-img" src="bilao/gambasetti.jpg" alt="Bilao Spaghetti">
+                        <img class= "carb-img"src="bilao/sotanghon.jpg" alt="Bilao Carbonara">
+                        <img class="pg-img" src="bilao/mikibihon.jpg" alt="Bilao Pansit Guisado">
+                    </div>
+                    <div class="bilao-item">
+                        <p class="spag-title">Gambasetti</p>
+                        <p class="carb-title">Sotranghon</p>
+                        <p class="pg-title">Mikibihon</p>
+                        <p class="spag-item">Small</p>
+                        <p class="carb-item">Medium</p>
+                        <p class="pg-item">Large</p>
+                    </div>
+                    <div class="bs-price">
+                        <h6 class="spag-price">820.00 Pesos<br></h6>
+                        <h6 class="carb-price">820.00 Pesos<br></h6>
+                        <h6 class="pg-price">690.00 Pesos<br></h6>
+                    </div>
+                    <div class="bs-price">
+                        <h6 class="spag-price">610.00 Pesos</h6>
+                        <h6 class="carb-price">610.00 Pesos</h6>
+                        <h6 class="pg-price">590.00 Pesos</h6>
+                    </div>
+                    <div class="bs-price">
+                        <h6 class="spag-price">450.00 Pesos</h6>
+                        <h6 class="carb-price">450.00 Pesos</h6>
+                        <h6 class="pg-price">410.00 Pesos</h6>
+                    </div>
+
+                    <div class="menu-bilao">
+                        <div class="bilao-size-menu">
+                            <img class="pab-img" src="bilao/palabok2.jpg" alt="Bilao Spaghetti">
+                        </div>
+                        <div class="bilao-item">
+                            <p class="spag-title">Palabok</p>
+                            <p class="spag-item">Small</p>
+                            <p class="carb-item">Medium</p>
+                            <p class="pg-item">Large</p>
+                        </div>
+                        <div class="bs-price">
+                            <h6 class="pab-price">850.00 Pesos</h6>
+                        </div>
+                        <div class="bs-price">
+                            <h6 class="pab-price">650.00 Pesos</h6>
+                        </div>
+                        <div class="bs-price">
+                            <h6 class="pab-price">490.00 Pesos</h6>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!----SIZZLING MENU--->
+        <section>
+            <div class="menu-best-selller">
+                <div class="bs-menu">
+                    <img class="hg-img" src="SizzMenu/Hungarian.jpg" alt="Hungarian">
+                    <img class= "sbb-img" src="SizzMenu/breadedChix.jpg" alt="Breaded Chicken">
+                    <img class="lb-img" src="SizzMenu/sizzLiempo.jpg" alt="Liempo">
+                </div>
+                <div class="bs-item">
+                    <p class="hg-items">Hungarian</p>
+                    <p class="bchix-item">Breaded Chix</p>
+                    <p class="lmpo-item">Liempo</p>
+                </div>
+                <div class="bs-price">
+                    <h6 class="hg-price">149.00 Pesos</h6>
+                    <h6 class="bchix-price">129.00 Pesos</h6>
+                    <h6 class="lavab-price">139.00 Pesos</h6>
+                </div>
+                
+                    <div class="menu-best-seller">
+                        <h1 class="sizz-menu">Cocosinero <br>Sizzling</h1>
+                        <div class="bs-menu">
+                            <img class="fo-img" src="SizzMenu/Salisbury.jpg" alt="Salisbury">
+                            <img class="fp-img" src="SizzMenu/sizzPorkchop.jpg" alt="Porkcop">
+                        </div>
+                        <div class="bs-item">
+                            <p class="salis-item">Salisbury</p>
+                            <p class="porchop-item">Porkchop</p>
+                        </div>
+                        <div class="bs-price">
+                            <h6 class="fo-price">116.00 Pesos</h6>
+                            <h6 class="fp-price">139.00 Pesos</h6>
+                        </div>
+                    </div>
+        </section>
 
         <section>
-            
+
         </section>
     </main>
+    <script>
+        var songyouwant = document.getElementById('songyouwant');
+        var icon = document.getElementById('icon');
 
+        icon.onclick = function(){
+            if(songyouwant.paused){
+                songyouwant.play();
+                icon.src = "play.png";
+            }else{
+                songyouwant.pause();
+                icon.src = "pause.png";
+            }
+        }
+    </script>
 </body>
