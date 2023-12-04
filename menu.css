@@ -13,16 +13,9 @@ body{
    cursor: auto;
 }
 
-header{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    right:0;
-    top: 0;
-    max-width: 100%;
-    height: 90px;
-    border-bottom: 2px solid grey;
-} 
+html{
+    scroll-behavior: smooth;
+}
 
 .button-song{
     float: left;
@@ -54,9 +47,22 @@ header{
     color: rgb(233, 90, 50);
 }
 
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    right:0;
+    top: 0;
+    z-index: 1000;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.663);
+    border-bottom: 2px solid rgb(139, 138, 137);
+    backdrop-filter: blur(4px);
+}   
 .navList{
     display: flex;
-    margin-left: 290px;
+    margin-left: 253px;
+    text-shadow: 1px 1px 3px rgb(255, 254, 254);
 }
 
 .navList li .menuAct{
@@ -66,17 +72,50 @@ header{
 .navList a{
     color:white;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     padding: 20px 20px;
     display: fixed;
     flex-grow: 1;
+    letter-spacing: 2px;
+    
 }
 
 .navList a:hover{
     background-color: rgba(225, 176, 0, 0.351);
     padding: 30px 20px;
 }
+
+/*Main menu*/
+.menu-navList{
+    display: flex;
+    margin-left: 390px;
+    text-shadow: 1px 1px 3px rgb(255, 254, 254);
+    margin-top: 2%;
+}
+
+.menu-navList a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color:rgb(233, 90, 50);
+    margin-bottom: 5%;
+    margin-top: 10%;
+    padding: 4px 4px;
+    line-height: 50px; 
+ 
+}
+
+.menu-navList a:hover{
+    padding: 4px 4px;
+    background-color: red;
+}
+
+/* */
+
 header h1{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
@@ -85,7 +124,7 @@ header h1{
     letter-spacing: 2px;
     margin:40px;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 38px;
     text-shadow: -1px -2px 5px rgb(255, 254, 254);
 }
 header h1 a{
@@ -97,8 +136,6 @@ header h1 a{
     font-size:50px;
     z-index: 10001;
     cursor: pointer;
-    margin-right: 25px;
-    visibility: collapse;
 }
 /*Start for menu navigation*/
 .h1menu{
@@ -155,7 +192,7 @@ p{
     border-bottom: 1px solid white;
     width: 60%;
     margin-left: 20%;
-    margin-bottom: 5%;
+    margin-bottom: -2%;
     margin-top: 5%;
 }
 
@@ -419,14 +456,13 @@ h6{
     margin-left: 20%;
     margin-bottom: 5%;
     margin-top: 10%;
-    position: absolute;
 }
 
 /*Best-seller menu*/
 
 .bseller{
     position: absolute;
-    top: 350vh;
+    top: 338vh;
 }
 
 .bs-menu img{
@@ -650,9 +686,10 @@ h6{
     color: rgb(233, 90, 50);;
     font-weight: 700;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     text-transform: uppercase;
     min-width: 100%;
+    margin-bottom: 15%;
 }
 
 .menu-bilao h1{
@@ -660,9 +697,8 @@ h6{
     border-bottom: 1px solid white;
     width: 60%;
     margin-left: 20%;
-    margin-bottom: 5%;
-    margin-top: -5%;
-    position: absolute;
+    margin-bottom: -3%;
+    margin-top: -7%;
 }
 
 .bilao-menu{
@@ -823,7 +859,7 @@ h6{
 
 .sizz-menu{
     position: absolute;
-    top:780vh;
+    top:790vh;
 }
 
 .hg-img{
@@ -831,7 +867,7 @@ h6{
     width: 25%;
     font-size: 30px;
     margin-left: 10%;
-    margin-top: 30%;
+    margin-top: 18%;
 }
 
 .hg-items{
@@ -842,7 +878,7 @@ h6{
 
 .bchix-item{
     font-size: 24px;
-    margin-left: 19%;
+    margin-left: 22%;
     margin-top: -30px;
 }
 
@@ -854,7 +890,7 @@ h6{
 
 .salis-item{
     font-size: 24px;
-    margin-left: 29%;
+    margin-left: 30%;
     margin-top: -40px;
 }
 
@@ -867,7 +903,7 @@ h6{
 .hg-price{
     color: rgb(233, 90, 50);
     margin-top: -40px;
-    margin-left: 16%;
+    margin-left: 18%;
     margin-right:6% ;
     text-transform: uppercase;
 }
@@ -875,7 +911,7 @@ h6{
 .bchix-price{
     color: rgb(233, 90, 50);
     margin-top: -40px;
-    margin-left: 14%;
+    margin-left: 22%;
     margin-right:2%;
     text-transform: uppercase;
     
@@ -996,6 +1032,13 @@ h6{
     margin-left: 21%;
     text-transform: uppercase;
 }
+.chef-tkutso{
+    color: rgb(233, 90, 50);
+    padding: 20px;
+    margin-left: -60%;
+    margin-top: 8%;
+    margin-bottom: -9%;
+}
 
 .chef-tkutso-menu{
     margin-top: 11%;
@@ -1018,6 +1061,145 @@ h6{
     margin-top: -4%;
     margin-left: 21%;
     text-transform: uppercase;
+}
+
+
+/*footer-div*/
+
+.footer-all-div{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    top: 250vh;
+    height:40vh;
+    border-top: 1px solid;
+    position: relative;
+}
+
+/* Cocosinero Footer*/
+
+.footer-home a{
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 624px;
+    position: absolute;
+    margin-top: 0.2%;
+}
+
+.hours-div{
+    position: absolute;
+    margin-left: 41.5%;
+    font-size: 1.50em;
+    padding: 5px;
+    margin-top: 3%;
+}
+
+.openHrs-div{
+    text-align: center;
+    margin-left: 42%;
+    font-size: 1em;
+    position: absolute;
+    margin-top:6% ;
+}
+
+.nav-loc-hour{
+    padding-top: 10px;
+    position: absolute;
+    margin-left: 39%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.nav-loc-hour a{
+    color: rgb(255, 255, 255);
+}
+
+.nav-loc-hour a:hover{
+    color: rgb(233, 90, 10);
+}
+/* Cocosinero Site Map of Website*/
+.footer-nav-map{
+    padding: 5px;
+    text-align: center;
+    top:-0.2vh;
+    position: absolute;
+    margin-left: 2%;
+}
+
+.footer-nav-map .site-map{
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
+
+.footer-nav-map a{
+    color: white;
+    display: flex;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+
+.footer-nav-map a:hover{
+    color: rgb(233, 90, 10);
+}
+
+/* Cocosinero Social Media Links*/
+
+.footer-social{
+    padding: 5px;
+    text-align: center;
+    top:-1.3vh;
+    position: absolute;
+    margin-left: 82%;
+    text-shadow: -1px 4px 5px rgba(3, 3, 3, 0.752);
+    color: rgb(233, 90, 50);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+
+.footer-social a{
+    color: rgb(24, 3, 255);
+    margin-right: 78px;
+}
+
+.footer-social a:hover{
+    color: rgb(14, 92, 169);
+}
+
+.qualityfoods{
+    top: 16vh;
+    position: absolute;
+    margin-left: 82.5%;
+}
+
+.footer-copyRight{
+    top: 36vh;
+    position: absolute;
+    margin-left: 37%;
+}
+
+.footer-copyRight a{
+    color: rgb(233, 90, 10);
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
 }
 
 
